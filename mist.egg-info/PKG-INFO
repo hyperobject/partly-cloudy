@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: mist
+Version: 0.1.0
+Summary: A simple Python wrapper for the littleBits Cloud API
+Home-page: https://github.com/technoboy10/mist
+Author: Connor Hudson
+Author-email: pypi@tekhne-blog.appspotmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python

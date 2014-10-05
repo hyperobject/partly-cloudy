@@ -3,6 +3,7 @@ class Bit:
     def __init__(self, auth_token, device_id):
         self.token = auth_token
         self.id = device_id
+        self.version = '0.1.0'
         self.headers = {"Authorization": "Bearer " + self.token, "Accept": "application/vnd.littlebits.v2+json"}
     
     def output(self, pct, dur):
