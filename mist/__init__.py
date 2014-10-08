@@ -1,4 +1,10 @@
 import requests
+print """
+mist - a python wrapper for the cloudBit API.
+
+If you use this, please let me know on github!
+http://github.com/technoboy10/mist
+"""
 class Bit:
     def __init__(self, auth_token, device_id):
         self.token = auth_token
