@@ -1,7 +1,7 @@
 mist
 =======
 
-A ridiculously simple Python wrapper for the littleBits cloud API.
+A seriously lightweight Python wrapper for the littleBits cloud API.
 
 
 ### Installation
