@@ -1,3 +1,8 @@
+"""
+Special thanks to @manitou48 and @jasonkuhrt for their help and support
+"""
+
+
 import requests
 import re
 
