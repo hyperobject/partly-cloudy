@@ -24,4 +24,4 @@ class Bit:
             yield line   # just fetch one line
         return
     def input(self):
-        return re.match(".*percent.:(\d+)",self.iter_input().next()).group(1)
+        return int(re.match(".*percent.:(\d+)",self.iter_input().next()).group(1))
