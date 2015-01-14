@@ -21,13 +21,13 @@ class Bit:
         #Use this for raw streaming input
         for line in requests.get("https://api-http.littlebitscloud.cc/devices/" + self.id + "/input", headers=self.headers, stream=True).iter_lines():
             if line:
-                yield json.loads(line)
+                yield json.loads(line[5:])
 
     def stream(self):
         #Use this for raw streaming input
         for line in requests.get("https://api-http.littlebitscloud.cc/devices/" + self.id + "/input", headers=self.headers, stream=True).iter_lines():
             if line:
-                yield int(json.loads(line)["payload"]["percent"])
+                yield int(json.loads(line[5:])["payload"]["percent"])
 
     def input(self):
         return self.stream().next()
