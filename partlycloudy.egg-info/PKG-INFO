@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: partlycloudy
+Version: 0.3
+Summary: A ridiculously lightweight Python wrapper for the littleBits Cloud API
+Home-page: https://github.com/technoboy10/partly-cloudy
+Author: Connor Hudson
+Author-email: pypi@tekhne-blog.appspotmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python

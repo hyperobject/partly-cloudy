@@ -2,7 +2,7 @@ from setuptools import setup
 
 
 setup(name = 'partlycloudy',
-      version = '0.1.1',
+      version = '0.3',
       author = 'Connor Hudson',
       author_email = 'pypi@tekhne-blog.appspotmail.com',
       url = 'https://github.com/technoboy10/partly-cloudy',
