@@ -10,7 +10,7 @@ setup(name = 'partlycloudy',
       license = 'MIT',
       packages = ['partlycloudy'],
       install_requires = [
-          'requests == 2.4.0',
+          'requests == 2.20.0',
       ],
       classifiers = [
         "Programming Language :: Python",
